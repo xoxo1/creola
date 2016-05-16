@@ -10,7 +10,6 @@ body {
   background-color: #FFFFFF;
   border-radius: 0;
   border: 0;
-
 }
 
 #logo-img {
@@ -21,9 +20,9 @@ body {
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 50px;
 }
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { /* numele cabinetului*/
   font-family: 'Lora', serif;
   color: #557c3e;
   font-size: 1em;
@@ -37,18 +36,19 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
+.navbar-brand p { /* certificare */
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p span { /* Star-K */
+.navbar-brand p span { /* certificare*/
   vertical-align: middle;
 }
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: 25px;
+    
 }
 #nav-list a {
   color: #951C49;
@@ -64,11 +64,11 @@ body {
 #phone {
   margin-top: 5px;
 }
-#phone a { /* Phone number */
+#phone a { /* nr telefon */
   text-align: right;
   padding-bottom: 0;
 }
-#phone div { /* We Deliver */
+#phone div { 
   color: #557c3e;
   text-align: right;
   padding-right: 5px;
@@ -115,7 +115,6 @@ body {
 
 
 
-/* HOME PAGE */
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
@@ -199,7 +198,7 @@ body {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { /* nume cabinet*/
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
@@ -264,7 +263,7 @@ body {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { /* nume cabinet*/
     padding-top: 5px;
     font-size: 6vw;
   }
